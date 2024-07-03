@@ -27,21 +27,22 @@ public class SyncUsersWorker : BackgroundService
 
         while (!stoppingToken.IsCancellationRequested)
         {
-            _logger.LogDebug($"SyncUsersWorker doing background work.");
+            _logger.LogDebug($"SyncUsersWorker doing nothing.");
+            //_logger.LogDebug($"SyncUsersWorker doing background work.");
 
-            var syncUsersCommand = new SyncUsersCommand();
+            //var syncUsersCommand = new SyncUsersCommand();
 
-            using (var scope = _services.CreateScope())
-            {
-                var dispatcher = scope.ServiceProvider.GetRequiredService<Dispatcher>();
+            //using (var scope = _services.CreateScope())
+            //{
+            //    var dispatcher = scope.ServiceProvider.GetRequiredService<Dispatcher>();
 
-                await dispatcher.DispatchAsync(syncUsersCommand, stoppingToken);
-            }
+            //    await dispatcher.DispatchAsync(syncUsersCommand, stoppingToken);
+            //}
 
-            if (syncUsersCommand.SyncedUsersCount == 0)
-            {
-                await Task.Delay(10000, stoppingToken);
-            }
+            //if (syncUsersCommand.SyncedUsersCount == 0)
+            //{
+            //    await Task.Delay(10000, stoppingToken);
+            //}
         }
 
         _logger.LogDebug($"SyncUsersWorker task is stopping.");
