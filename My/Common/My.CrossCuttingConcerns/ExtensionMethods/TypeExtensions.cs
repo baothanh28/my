@@ -1,8 +1,4 @@
-﻿using System;
-using System.Linq;
-using System.Text;
-
-namespace My.CrossCuttingConcerns.ExtensionMethods;
+﻿namespace My.CrossCuttingConcerns.ExtensionMethods;
 
 public static class TypeExtensions
 {

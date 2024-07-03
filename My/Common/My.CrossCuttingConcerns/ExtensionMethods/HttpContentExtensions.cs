@@ -1,9 +1,4 @@
-﻿using System.Net.Http;
-using System.Net.Http.Headers;
-using System.Text.Json;
-using System.Threading.Tasks;
-
-namespace My.CrossCuttingConcerns.ExtensionMethods;
+﻿namespace My.CrossCuttingConcerns.ExtensionMethods;
 
 public static class HttpContentExtensions
 {

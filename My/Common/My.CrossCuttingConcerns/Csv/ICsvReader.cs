@@ -1,7 +1,4 @@
-﻿using System.Collections.Generic;
-using System.IO;
-
-namespace My.CrossCuttingConcerns.Csv;
+﻿namespace My.CrossCuttingConcerns.Csv;
 
 public interface ICsvReader<T>
 {

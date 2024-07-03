@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace My.CrossCuttingConcerns.Exceptions;
+﻿namespace My.CrossCuttingConcerns.Exceptions;
 
 public class NotFoundException : Exception
 {

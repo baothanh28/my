@@ -1,6 +1,4 @@
-﻿using System.Threading.Tasks;
-
-namespace My.CrossCuttingConcerns.HtmlGenerator;
+﻿namespace My.CrossCuttingConcerns.HtmlGenerator;
 
 public interface IHtmlGenerator
 {

@@ -1,7 +1,4 @@
-﻿using System.Reflection;
-using System.Text.Json;
-
-namespace My.CrossCuttingConcerns.ExtensionMethods;
+﻿namespace My.CrossCuttingConcerns.ExtensionMethods;
 
 /// <summary>
 /// https://stackoverflow.com/questions/78536/deep-cloning-objects

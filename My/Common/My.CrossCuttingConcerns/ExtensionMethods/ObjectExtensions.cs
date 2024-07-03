@@ -1,7 +1,4 @@
-﻿using System.Text.Json;
-using System.Text.Json.Serialization;
-
-namespace My.CrossCuttingConcerns.ExtensionMethods;
+﻿namespace My.CrossCuttingConcerns.ExtensionMethods;
 
 public static class ObjectExtensions
 {

@@ -1,6 +1,4 @@
-﻿using System.IO;
-
-namespace My.CrossCuttingConcerns.Excel;
+﻿namespace My.CrossCuttingConcerns.Excel;
 
 public interface IExcelReader<T>
 {

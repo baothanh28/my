@@ -1,7 +1,4 @@
-﻿using System.IO;
-using System.Threading.Tasks;
-
-namespace My.CrossCuttingConcerns.PdfConverter;
+﻿namespace My.CrossCuttingConcerns.PdfConverter;
 
 public interface IPdfConverter
 {

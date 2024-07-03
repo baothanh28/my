@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace My.CrossCuttingConcerns.ExtensionMethods;
+﻿namespace My.CrossCuttingConcerns.ExtensionMethods;
 
 public static class GuidExtensions
 {

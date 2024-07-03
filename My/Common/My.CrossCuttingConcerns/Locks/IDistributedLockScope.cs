@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace My.CrossCuttingConcerns.Locks;
+﻿namespace My.CrossCuttingConcerns.Locks;
 
 public interface IDistributedLockScope : IDisposable
 {

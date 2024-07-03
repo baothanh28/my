@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace My.CrossCuttingConcerns.Caching;
+﻿namespace My.CrossCuttingConcerns.Caching;
 
 public interface ICache
 {

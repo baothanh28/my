@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace My.CrossCuttingConcerns.DateTimes;
+﻿namespace My.CrossCuttingConcerns.DateTimes;
 
 public interface IDateTimeProvider
 {
