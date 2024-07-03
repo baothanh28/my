@@ -1,0 +1,5 @@
+
+
+docker build -f "My.Gateways.WebAPI\Dockerfile" -t My.gateways.webapi ../
+
+docker run -d -p 8080:80 --name My.gateways.webapi My.gateways.webapi
